@@ -1,0 +1,24 @@
+name: LibsDisguises
+main: me.libraryaddict.disguise.LibsDisguises
+version: ${project.version}
+author: libraryaddict
+depend: [ProtocolLib]
+commands:
+   disguise:
+      aliases: [d, dis]
+   disguiseentity:
+      aliases: [dentity, disentity]
+   disguisehelp:
+      aliases: [dhelp, dishelp]
+   disguiseplayer:
+      aliases: [dplayer, displayer]
+   disguiseradius:
+      aliases: [disradius, dradius]
+   undisguise:
+      aliases: [u, undis]
+   undisguiseentity:
+      aliases: [undisentity, undentity]
+   undisguiseplayer:
+      aliases: [undisplayer, undplayer]
+   undisguiseradius:
+      aliases: [undisradius, undradius]
